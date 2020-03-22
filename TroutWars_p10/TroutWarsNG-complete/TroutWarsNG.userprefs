@@ -1,0 +1,28 @@
+﻿<UserCombinePreferences version="1.0" filename="/home/hudzilla/TroutWarsNG/TroutWarsNG.mds">
+  <Files>
+    <File name="Main.cs" line="15" column="35" />
+    <File name="TroutWars.cs" line="109" column="37" />
+    <File name="Starfield.cs" line="23" column="1" />
+    <File name="Star.cs" line="16" column="4" />
+    <File name="Player.cs" line="48" column="4" />
+    <File name="Laser.cs" line="9" column="3" />
+    <File name="Enemy.cs" line="9" column="10" />
+  </Files>
+  <Views>
+    <ViewMemento id="ProjectPad">
+      <Node expanded="True">
+        <Node name="TroutWarsNG" expanded="True">
+          <Node name="References" expanded="True" />
+          <Node name="TroutWars.cs" selected="True" />
+        </Node>
+      </Node>
+    </ViewMemento>
+    <ViewMemento id="ClassPad">
+      <Node expanded="True" />
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Property key="ActiveWindow" value="/home/hudzilla/TroutWarsNG/TroutWars.cs" />
+    <Property key="ActiveConfiguration" value="Debug" />
+  </Properties>
+</UserCombinePreferences>

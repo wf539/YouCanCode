@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */; };
+		2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 118FCBAABA162BA17933C789 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		4C40B126D51EB379FD566199 /* medit.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 631D00F29A9C363E25AD1EA9 /* medit.cpp */; settings = {ATTRIBUTES = (); }; };
+		501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 9B36DA7E32F0304E780E7972 /* QtGui.framework */; };
+		51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 821416211D63F190AAAD016A /* AppKit.framework */; };
+		76AAC20B2C39B3883BD7EFC9 /* stareditor.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 437D174AA3D11244C19DB009 /* stareditor.cpp */; settings = {ATTRIBUTES = (); }; };
+		8386C41E9F584CBD279DC6A8 /* micronprogram.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2C2D9DBFDFC8D9933357658C /* micronprogram.cpp */; settings = {ATTRIBUTES = (); }; };
+		8C4795E94D81B3B66AAD6C80 /* qrc_application.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F0CA0CF4033AD00CC4A7FED6 /* qrc_application.cpp */; settings = {ATTRIBUTES = (); }; };
+		8F213ED2BE0F56DD983F6B94 /* moc_stareditor.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 13B45CC36B7DBCF3A05247CE /* moc_stareditor.cpp */; settings = {ATTRIBUTES = (); }; };
+		9520156C347584C75C122452 /* stardelegate.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 43504D05D2A54535CA668BC9 /* stardelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		9957B23DAF66777182FEB37B /* moc_combodelegate.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0C51171E30758A4ED9E413C5 /* moc_combodelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		A95A70305DD666441D72F539 /* combodelegate.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CC2F9D32B06431C8AEA63F9A /* combodelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		BF273D730E5B88D80082F2E5 /* medit.app in Project Copy */ = {isa = PBXBuildFile; fileRef = BF273D700E5B88D80082F2E5 /* medit.app */; };
+		C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = DA138F75C9F545CDAE7FB264 /* Carbon.framework */; };
+		CD77CC0FB48025E2B310EC1B /* starrating.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FD3C83099695684252D8A177 /* starrating.cpp */; settings = {ATTRIBUTES = (); }; };
+		F0E5D75389A70DF8641CB423 /* moc_stardelegate.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2B875DD81303397BAA06BC54 /* moc_stardelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		F70689567B93758D4BAB8036 /* moc_medit.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 98669525F19897D3DAAEA8A0 /* moc_medit.cpp */; settings = {ATTRIBUTES = (); }; };
+		F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/graham/Documents/build/medit/bin;
+			dstSubfolderSpec = 0;
+			files = (
+				BF273D730E5B88D80082F2E5 /* medit.app in Project Copy */,
+			);
+			name = "Project Copy";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C51171E30758A4ED9E413C5 /* moc_combodelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_combodelegate.cpp; sourceTree = "<group>"; };
+		118FCBAABA162BA17933C789 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13B45CC36B7DBCF3A05247CE /* moc_stareditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_stareditor.cpp; sourceTree = "<group>"; };
+		27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		2B875DD81303397BAA06BC54 /* moc_stardelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_stardelegate.cpp; sourceTree = "<group>"; };
+		2C2D9DBFDFC8D9933357658C /* micronprogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = micronprogram.cpp; sourceTree = "<group>"; };
+		3134F100D1F92C98ED26A479 /* combodelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = combodelegate.h; sourceTree = "<group>"; };
+		40F713EA24F68635E9AB255F /* micronprogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = micronprogram.h; sourceTree = "<group>"; };
+		43504D05D2A54535CA668BC9 /* stardelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stardelegate.cpp; sourceTree = "<group>"; };
+		437D174AA3D11244C19DB009 /* stareditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stareditor.cpp; sourceTree = "<group>"; };
+		626C446F0728350CB6096066 /* application.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = application.qrc; sourceTree = "<group>"; };
+		631D00F29A9C363E25AD1EA9 /* medit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = medit.cpp; sourceTree = "<group>"; };
+		7190656A8C4126E5484D8532 /* src.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = src.pro; sourceTree = "<group>"; };
+		7A52A7295D45F8A5D5F0D956 /* stardelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stardelegate.h; sourceTree = "<group>"; };
+		7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		821416211D63F190AAAD016A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		884975F9533A551DA0F06C83 /* stareditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stareditor.h; sourceTree = "<group>"; };
+		98669525F19897D3DAAEA8A0 /* moc_medit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_medit.cpp; sourceTree = "<group>"; };
+		9B36DA7E32F0304E780E7972 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		BF273D700E5B88D80082F2E5 /* medit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F9D32B06431C8AEA63F9A /* combodelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = combodelegate.cpp; sourceTree = "<group>"; };
+		DA138F75C9F545CDAE7FB264 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F0CA0CF4033AD00CC4A7FED6 /* qrc_application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_application.cpp; sourceTree = "<group>"; };
+		FCA110E89D6E31D06311ADFA /* starrating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = starrating.h; sourceTree = "<group>"; };
+		FD3C83099695684252D8A177 /* starrating.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = starrating.cpp; sourceTree = "<group>"; };
+		FED30E42F88C28A6AD631976 /* medit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */,
+				C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */,
+				51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */,
+				069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */,
+				F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* medit */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				52C235EBF1C9B07808119459 /* Sources [RCC] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				BF273D710E5B88D80082F2E5 /* Products */,
+			);
+			name = medit;
+			sourceTree = "<group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				98669525F19897D3DAAEA8A0 /* moc_medit.cpp */,
+				13B45CC36B7DBCF3A05247CE /* moc_stareditor.cpp */,
+				2B875DD81303397BAA06BC54 /* moc_stardelegate.cpp */,
+				0C51171E30758A4ED9E413C5 /* moc_combodelegate.cpp */,
+				F0CA0CF4033AD00CC4A7FED6 /* qrc_application.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<group>";
+		};
+		52C235EBF1C9B07808119459 /* Sources [RCC] */ = {
+			isa = PBXGroup;
+			children = (
+				626C446F0728350CB6096066 /* application.qrc */,
+			);
+			name = "Sources [RCC]";
+			sourceTree = "<group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				7190656A8C4126E5484D8532 /* src.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FED30E42F88C28A6AD631976 /* medit.h */,
+				884975F9533A551DA0F06C83 /* stareditor.h */,
+				FCA110E89D6E31D06311ADFA /* starrating.h */,
+				7A52A7295D45F8A5D5F0D956 /* stardelegate.h */,
+				3134F100D1F92C98ED26A479 /* combodelegate.h */,
+				40F713EA24F68635E9AB255F /* micronprogram.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BF273D710E5B88D80082F2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF273D700E5B88D80082F2E5 /* medit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9B36DA7E32F0304E780E7972 /* QtGui.framework */,
+				DA138F75C9F545CDAE7FB264 /* Carbon.framework */,
+				821416211D63F190AAAD016A /* AppKit.framework */,
+				7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */,
+				27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				631D00F29A9C363E25AD1EA9 /* medit.cpp */,
+				118FCBAABA162BA17933C789 /* main.cpp */,
+				437D174AA3D11244C19DB009 /* stareditor.cpp */,
+				FD3C83099695684252D8A177 /* starrating.cpp */,
+				43504D05D2A54535CA668BC9 /* stardelegate.cpp */,
+				CC2F9D32B06431C8AEA63F9A /* combodelegate.cpp */,
+				2C2D9DBFDFC8D9933357658C /* micronprogram.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1342A43E119A00018F3911 /* medit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF273D7F0E5B88E60082F2E5 /* Build configuration list for PBXNativeTarget "medit" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medit;
+			productInstallPath = ../bin/;
+			productName = medit;
+			productReference = BF273D700E5B88D80082F2E5 /* medit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "medit" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 05596AB53D8D521C69802C27 /* medit */;
+			productRefGroup = BF273D710E5B88D80082F2E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1342A43E119A00018F3911 /* medit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/graham/Documents/build/medit/src -f medit.xcodeproj/qt_preprocess.mak";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/graham/Documents/build/medit/src -f medit.xcodeproj/qt_makeqmake.mak";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C40B126D51EB379FD566199 /* medit.cpp in Build Sources */,
+				2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */,
+				76AAC20B2C39B3883BD7EFC9 /* stareditor.cpp in Build Sources */,
+				CD77CC0FB48025E2B310EC1B /* starrating.cpp in Build Sources */,
+				9520156C347584C75C122452 /* stardelegate.cpp in Build Sources */,
+				A95A70305DD666441D72F539 /* combodelegate.cpp in Build Sources */,
+				8386C41E9F584CBD279DC6A8 /* micronprogram.cpp in Build Sources */,
+				F70689567B93758D4BAB8036 /* moc_medit.cpp in Build Sources */,
+				8F213ED2BE0F56DD983F6B94 /* moc_stareditor.cpp in Build Sources */,
+				F0E5D75389A70DF8641CB423 /* moc_stardelegate.cpp in Build Sources */,
+				9957B23DAF66777182FEB37B /* moc_combodelegate.cpp in Build Sources */,
+				8C4795E94D81B3B66AAD6C80 /* qrc_application.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1DD96F65B1BF1FFC506E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		95E1EB2E5DDD587BE5B3E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+			};
+			name = Release;
+		};
+		BF273D760E5B88D90082F2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = /Users/graham/Documents/build/medit/src;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.4/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = /Users/graham/Documents/build/medit/src/../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+					"-lz",
+					"-lm",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = medit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Debug;
+		};
+		BF273D770E5B88D90082F2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = /Users/graham/Documents/build/medit/src;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.4/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = /Users/graham/Documents/build/medit/src/../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+					"-lz",
+					"-lm",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = medit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Release;
+		};
+		BF273D780E5B88D90082F2E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = /Users/graham/Documents/build/medit/src;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.4/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = /Users/graham/Documents/build/medit/src/../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+					"-lz",
+					"-lm",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = medit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "medit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1DD96F65B1BF1FFC506E0 /* Debug */,
+				95E1EB2E5DDD587BE5B3E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF273D7F0E5B88E60082F2E5 /* Build configuration list for PBXNativeTarget "medit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF273D760E5B88D90082F2E5 /* Debug */,
+				BF273D770E5B88D90082F2E5 /* Release */,
+				BF273D780E5B88D90082F2E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

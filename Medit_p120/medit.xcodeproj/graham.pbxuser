@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	013FDF76C125F492D11B9502 /* combodelegate.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {714, 952}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1426}";
+			sepNavWindowFrame = "{{306, -15}, {773, 871}}";
+		};
+	};
+	53EF9E3CBB9D5D23945C446F /* medit.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {714, 6972}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{10266, 1175}";
+			sepNavWindowFrame = "{{67, 2}, {773, 871}}";
+		};
+	};
+	91B15E841AA80083484172DE /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BF4A81B60E635D3500FF6306 /* medit */;
+		activeTarget = E507F57C264006B648D28CC6 /* medit */;
+		codeSenseManager = BF4A81CD0E635D3E00FF6306 /* Code sense */;
+		executables = (
+			BF4A81B60E635D3500FF6306 /* medit */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					342,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 241392950;
+			PBXWorkspaceStateSaveDate = 241392950;
+		};
+		sourceControlManager = BF4A81CC0E635D3E00FF6306 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BF4A81B60E635D3500FF6306 /* medit */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = medit;
+		sourceDirectories = (
+		);
+	};
+	BF4A81CC0E635D3E00FF6306 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BF4A81CD0E635D3E00FF6306 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E507F57C264006B648D28CC6 /* medit */ = {
+		activeExec = 0;
+		executables = (
+			BF4A81B60E635D3500FF6306 /* medit */,
+		);
+	};
+}

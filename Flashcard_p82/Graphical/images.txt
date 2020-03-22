@@ -1,0 +1,5 @@
+egypt.png
+japan.png
+sweden.png
+vietnam.png
+germany.png
